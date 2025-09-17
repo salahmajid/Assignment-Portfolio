@@ -7,21 +7,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-}
-
-.left-container {
-    flex-grow: 1;
-    display: block;
-}
-
-.right-container {
-    flex-grow: 3;
-    display: block;
-}
-
-.main-header-positioning-container {
-    flex-grow: 3;
-    display: block;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-header {
@@ -32,42 +19,6 @@ body {
     border: 2px black;
     border-radius: 5px;
 }
-
-.class-assignments-positioning-container {
-    list-style-position: inside;
-    list-style-type: square;
-    display: flex;
-    justify-content: right;
-    flex-direction: column;
-    gap: 2px;
-    padding-top: 75px;
-}
-
-.class-assignments-header {
-    background-color: rgba(255, 255, 255, 0.7);
-    text-align: center;
-    width: auto;
-    max-width: 200px;
-    border: 2px black;
-    border-radius: 5px;
-}
-
-.class-assignments-body {
-    background-color: rgba(255, 255, 255, 0.7);
-    text-align: center;
-    width: auto;
-    max-width: 200px;
-    border: 2px black;
-    border-radius: 5px;
-}
-
-
-.websites-created-positioning-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
-
 
 .websites-created-body {
     background-color: rgba(255, 255, 255, 0.7);
@@ -91,5 +42,4 @@ a {
 a:hover {
     color: black;
     text-decoration: underline;
-
 }
